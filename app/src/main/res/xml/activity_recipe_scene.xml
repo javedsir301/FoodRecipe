@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:motion="http://schemas.android.com/tools">
+
+    <Transition
+        app:constraintSetEnd="@+id/end"
+        app:constraintSetStart="@id/start"
+        app:duration="500">
+        <OnClick app:targetId="@+id/go_up" />
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+        <!--        <Constraint android:id="@+id/item_img" />-->
+    </ConstraintSet>
+
+    <!--    <ConstraintSet android:id="@+id/end">-->
+    <!--&lt;!&ndash;        <Constraint android:id="@id/item_img" />&ndash;&gt;-->
+    <!--    </ConstraintSet>-->
+
+    <ConstraintSet android:id="@+id/end">
+    <Constraint
+        android:id="@+id/item_image"
+        motion:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        motion:layout_constraintTop_toTop0f="parent"
+        motion:layout_constraintStart_toStartOf="parent" />
+
+    <Constraint
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        motion:layout_constraintEnd_toEndOf="parent"
+        motion:layout_constraintHorizontal_bias="0.0"
+        motion:layout_constraintStart_toStartOf="parent"
+        motion:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="100dp" />
+
+    <Constraint
+    android:id="@+id/shade"
+    motion:layout_constraintEnd_toEnd0f="parent"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    motion:layout_constraintBottom_toBottom0f="@+id/recipe_img"
+    motion:layout_constraintStart_toStartOf="parent"
+    android:alpha="0" />
+
+    <Constraint
+        android:id="@+id/back_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        motion:layout_constraintTop_toTopOf="parent"
+        motion:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="24dp" />
+
+    <Constraint
+        android:id="@+id/go_up"
+        motion:layout_constraintEnd_toEndOf="parent"
+        motion:layout_constraintTop_toTopOf="@+id/relativeLayout"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:rotation="180" />
+
+    </ConstraintSet>
+
+</MotionScene>

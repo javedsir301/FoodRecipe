@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Food Recipes</string>
+    <string name="made_in">Made In 🇮🇳</string>
+    <string name="todo">TODO</string>
+    <string name="hello">Hello</string>
+    <string name="todo_1">TODO</string>
+    <string name="foodie">foodie!</string>
+    <string name="which_indian_food_would_you_live_to_cook">Which indian food would you live to cook ?</string>
+    <string name="search_recipe">Search recipe</string>
+    <string name="todo_2">TODO</string>
+    <string name="categories">Categories</string>
+    <string name="salad">Salad</string>
+    <string name="todo_3">TODO</string>
+    <string name="main">Main</string>
+    <string name="drinks">Drinks</string>
+    <string name="desserts">Desserts</string>
+    <string name="popular_recipe">Popular recipe</string>
+    <string name="here_is_the_sample_text">here is the sample text</string>
+    <string name="_20_mins">⌚ 20 Mins</string>
+    <string name="search_recipe_1">Search Recipe</string>
+    <string name="demo_text_here">Demo Text Here</string>
+    <string name="salad_1">Salad</string>
+    <string name="sample_text_is_here_you_can_see_this_text">Sample text is here you can see this text</string>
+    <string name="todo_5">TODO</string>
+    <string name="_30_mins_1">30 mins</string>
+    <string name="image_description_pizza_sample">Image of a pizza</string>
+    <string name="image_description_btm_overlay">Bottom overlay image</string>
+    <string name="image_description_back_icon">Back button icon</string>
+    <string name="image_description_full_size_ic">Full size icon</string>
+    <string name="i_am_sample_text">I am Sample Text</string>
+    <string name="_32_mins">32 mins</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="steps">Steps</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="about">About</string>
+</resources>
